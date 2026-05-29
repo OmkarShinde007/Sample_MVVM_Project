@@ -29,7 +29,7 @@ class DashboardUseCases @Inject constructor(
 
 
             DashboardEntity(
-                users = userResult.getDataOrNull()?.take(10) ?: emptyList(),
+                users = userResult.getDataOrNull()?.take(5) ?: emptyList(),
 
                 posts = postsResult.getDataOrNull()?.take(10) ?: emptyList(),
 
