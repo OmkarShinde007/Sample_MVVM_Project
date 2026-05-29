@@ -1,7 +1,7 @@
-package com.omkar.sample_mvvm_project.domain
+package com.omkar.sample_mvvm_project.domain.usecase
 
-import com.omkar.sample_mvvm_project.core.getDataOrNull
-import com.omkar.sample_mvvm_project.core.getErrorOrNull
+import com.omkar.sample_mvvm_project.core.extensions.getDataOrNull
+import com.omkar.sample_mvvm_project.core.extensions.getErrorOrNull
 import com.omkar.sample_mvvm_project.domain.model.DashboardEntity
 import com.omkar.sample_mvvm_project.domain.repository.CommentsRepository
 import com.omkar.sample_mvvm_project.domain.repository.PostsRepository

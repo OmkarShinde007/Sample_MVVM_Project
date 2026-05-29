@@ -1,4 +1,4 @@
-package com.omkar.sample_mvvm_project.data
+package com.omkar.sample_mvvm_project.data.api
 
 import com.omkar.sample_mvvm_project.data.dto.CommentsDTO
 import com.omkar.sample_mvvm_project.data.dto.PostsDTO

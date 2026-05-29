@@ -1,7 +1,7 @@
 package com.omkar.sample_mvvm_project.data.repository_impl
 
 import com.omkar.sample_mvvm_project.core.common.ApiResult
-import com.omkar.sample_mvvm_project.data.ApiServices
+import com.omkar.sample_mvvm_project.data.api.ApiServices
 import com.omkar.sample_mvvm_project.data.mapper.commentDTOToEntityMapper
 import com.omkar.sample_mvvm_project.domain.model.CommentsEntity
 import com.omkar.sample_mvvm_project.domain.repository.CommentsRepository

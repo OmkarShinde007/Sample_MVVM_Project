@@ -3,7 +3,7 @@ package com.omkar.sample_mvvm_project.presenter
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.omkar.sample_mvvm_project.core.common.Constants.COMMON_ERROR
-import com.omkar.sample_mvvm_project.domain.DashboardUseCases
+import com.omkar.sample_mvvm_project.domain.usecase.DashboardUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

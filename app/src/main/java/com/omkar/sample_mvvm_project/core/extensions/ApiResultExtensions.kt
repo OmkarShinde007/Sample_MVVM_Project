@@ -1,4 +1,4 @@
-package com.omkar.sample_mvvm_project.core
+package com.omkar.sample_mvvm_project.core.extensions
 
 import com.omkar.sample_mvvm_project.core.common.ApiResult
 

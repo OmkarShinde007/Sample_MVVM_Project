@@ -1,6 +1,6 @@
 package com.omkar.sample_mvvm_project.core.di
 
-import com.omkar.sample_mvvm_project.data.ApiServices
+import com.omkar.sample_mvvm_project.data.api.ApiServices
 import com.omkar.sample_mvvm_project.core.common.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
