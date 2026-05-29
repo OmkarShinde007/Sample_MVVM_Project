@@ -2,7 +2,7 @@ package com.omkar.sample_mvvm_project.domain
 
 import com.omkar.sample_mvvm_project.core.getDataOrNull
 import com.omkar.sample_mvvm_project.core.getErrorOrNull
-import com.omkar.sample_mvvm_project.domain.entity.DashboardEntity
+import com.omkar.sample_mvvm_project.domain.model.DashboardEntity
 import com.omkar.sample_mvvm_project.domain.repository.CommentsRepository
 import com.omkar.sample_mvvm_project.domain.repository.PostsRepository
 import com.omkar.sample_mvvm_project.domain.repository.UserRepository

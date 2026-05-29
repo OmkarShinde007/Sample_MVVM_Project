@@ -3,7 +3,7 @@ package com.omkar.sample_mvvm_project.data.repository_impl
 import com.omkar.sample_mvvm_project.core.common.ApiResult
 import com.omkar.sample_mvvm_project.data.ApiServices
 import com.omkar.sample_mvvm_project.data.mapper.userDTOToEntityMapper
-import com.omkar.sample_mvvm_project.domain.entity.UserEntity
+import com.omkar.sample_mvvm_project.domain.model.UserEntity
 import com.omkar.sample_mvvm_project.domain.repository.UserRepository
 import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_USER
 import javax.inject.Inject

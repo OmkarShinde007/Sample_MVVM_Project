@@ -22,10 +22,10 @@ import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.omkar.sample_mvvm_project.domain.entity.CommentsEntity
-import com.omkar.sample_mvvm_project.domain.entity.DashboardEntity
-import com.omkar.sample_mvvm_project.domain.entity.PostsEntity
-import com.omkar.sample_mvvm_project.domain.entity.UserEntity
+import com.omkar.sample_mvvm_project.domain.model.CommentsEntity
+import com.omkar.sample_mvvm_project.domain.model.DashboardEntity
+import com.omkar.sample_mvvm_project.domain.model.PostsEntity
+import com.omkar.sample_mvvm_project.domain.model.UserEntity
 import com.omkar.sample_mvvm_project.presenter.components.CommentCard
 import com.omkar.sample_mvvm_project.presenter.components.DashboardLoadingScreen
 import com.omkar.sample_mvvm_project.presenter.components.DashboardSection
@@ -37,7 +37,7 @@ import com.omkar.sample_mvvm_project.ui.theme.Sample_MVVM_ProjectTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DashboardScreen(viewModel: DashboardViewmodel = hiltViewModel()) {
+fun DashboardScreen(viewModel: DashboardViewModel = hiltViewModel()) {
 
     val dashboardState by viewModel.dashboardState.collectAsStateWithLifecycle()
 

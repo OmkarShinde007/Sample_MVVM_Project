@@ -1,4 +1,4 @@
-package com.omkar.sample_mvvm_project.domain.entity
+package com.omkar.sample_mvvm_project.domain.model
 
 data class PostsEntity(
     val id: Int,

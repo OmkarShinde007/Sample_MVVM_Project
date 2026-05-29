@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class DashboardViewmodel @Inject constructor(val dashboardUseCases: DashboardUseCases) :
+class DashboardViewModel @Inject constructor(val dashboardUseCases: DashboardUseCases) :
     ViewModel() {
 
     private val _dashboardState = MutableStateFlow<DashboardState>(DashboardState.Loading)

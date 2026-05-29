@@ -1,6 +1,6 @@
 package com.omkar.sample_mvvm_project.presenter
 
-import com.omkar.sample_mvvm_project.domain.entity.DashboardEntity
+import com.omkar.sample_mvvm_project.domain.model.DashboardEntity
 
 sealed class DashboardState {
     object Loading : DashboardState()

@@ -3,7 +3,7 @@ package com.omkar.sample_mvvm_project.data.repository_impl
 import com.omkar.sample_mvvm_project.core.common.ApiResult
 import com.omkar.sample_mvvm_project.data.ApiServices
 import com.omkar.sample_mvvm_project.data.mapper.commentDTOToEntityMapper
-import com.omkar.sample_mvvm_project.domain.entity.CommentsEntity
+import com.omkar.sample_mvvm_project.domain.model.CommentsEntity
 import com.omkar.sample_mvvm_project.domain.repository.CommentsRepository
 import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_COMMENTS
 import javax.inject.Inject

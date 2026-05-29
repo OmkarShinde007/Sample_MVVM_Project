@@ -5,9 +5,9 @@ import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_COMMENT
 import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_POSTS
 import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_USER
 import com.omkar.sample_mvvm_project.domain.DashboardUseCases
-import com.omkar.sample_mvvm_project.domain.entity.CommentsEntity
-import com.omkar.sample_mvvm_project.domain.entity.PostsEntity
-import com.omkar.sample_mvvm_project.domain.entity.UserEntity
+import com.omkar.sample_mvvm_project.domain.model.CommentsEntity
+import com.omkar.sample_mvvm_project.domain.model.PostsEntity
+import com.omkar.sample_mvvm_project.domain.model.UserEntity
 import com.omkar.sample_mvvm_project.domain.repository.CommentsRepository
 import com.omkar.sample_mvvm_project.domain.repository.PostsRepository
 import com.omkar.sample_mvvm_project.domain.repository.UserRepository

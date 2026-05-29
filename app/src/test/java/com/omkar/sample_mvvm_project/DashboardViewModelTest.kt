@@ -5,12 +5,12 @@ import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_COMMENT
 import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_POSTS
 import com.omkar.sample_mvvm_project.core.common.Constants.ERROR_MESSAGE_USER
 import com.omkar.sample_mvvm_project.domain.DashboardUseCases
-import com.omkar.sample_mvvm_project.domain.entity.CommentsEntity
-import com.omkar.sample_mvvm_project.domain.entity.DashboardEntity
-import com.omkar.sample_mvvm_project.domain.entity.PostsEntity
-import com.omkar.sample_mvvm_project.domain.entity.UserEntity
+import com.omkar.sample_mvvm_project.domain.model.CommentsEntity
+import com.omkar.sample_mvvm_project.domain.model.DashboardEntity
+import com.omkar.sample_mvvm_project.domain.model.PostsEntity
+import com.omkar.sample_mvvm_project.domain.model.UserEntity
 import com.omkar.sample_mvvm_project.presenter.DashboardState
-import com.omkar.sample_mvvm_project.presenter.DashboardViewmodel
+import com.omkar.sample_mvvm_project.presenter.DashboardViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.advanceUntilIdle
 import kotlinx.coroutines.test.runTest
@@ -20,9 +20,9 @@ import org.mockito.kotlin.mock
 import org.mockito.kotlin.whenever
 
 @OptIn(ExperimentalCoroutinesApi::class)
-class DashboardViewmodelTest {
+class DashboardViewModelTest {
 
-    lateinit var dashboardViewmodel: DashboardViewmodel
+    lateinit var dashboardViewmodel: DashboardViewModel
     val dashboardUseCases: DashboardUseCases = mock()
 
     val users = listOf(
@@ -64,7 +64,7 @@ class DashboardViewmodelTest {
             expectedResult
         )
 
-        dashboardViewmodel = DashboardViewmodel(dashboardUseCases)
+        dashboardViewmodel = DashboardViewModel(dashboardUseCases)
         advanceUntilIdle()
         dashboardViewmodel.dashboardState.test {
             val result = awaitItem()
@@ -85,7 +85,7 @@ class DashboardViewmodelTest {
             expectedResult
         )
 
-        dashboardViewmodel = DashboardViewmodel(dashboardUseCases)
+        dashboardViewmodel = DashboardViewModel(dashboardUseCases)
         advanceUntilIdle()
         dashboardViewmodel.dashboardState.test {
             val result = awaitItem()
@@ -107,7 +107,7 @@ class DashboardViewmodelTest {
                 expectedResult
             )
 
-            dashboardViewmodel = DashboardViewmodel(dashboardUseCases)
+            dashboardViewmodel = DashboardViewModel(dashboardUseCases)
             advanceUntilIdle()
             dashboardViewmodel.dashboardState.test {
                 val result = awaitItem()

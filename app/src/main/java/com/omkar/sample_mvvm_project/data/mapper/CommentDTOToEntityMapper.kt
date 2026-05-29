@@ -1,7 +1,7 @@
 package com.omkar.sample_mvvm_project.data.mapper
 
 import com.omkar.sample_mvvm_project.data.dto.CommentsDTO
-import com.omkar.sample_mvvm_project.domain.entity.CommentsEntity
+import com.omkar.sample_mvvm_project.domain.model.CommentsEntity
 
 fun CommentsDTO.commentDTOToEntityMapper() : CommentsEntity{
 

@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.omkar.sample_mvvm_project.domain.entity.UserEntity
+import com.omkar.sample_mvvm_project.domain.model.UserEntity
 import com.omkar.sample_mvvm_project.ui.theme.Sample_MVVM_ProjectTheme
 
 @Composable
